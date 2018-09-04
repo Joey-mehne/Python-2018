@@ -14,7 +14,7 @@ b_2 = "Give up hope."
 b_3 = "I could tell the truth but you're not going to like it."
 answers = [g_1,g_2,g_3,n_1,n_2,b_1,b_2,b_3]
 
-while name == name:
+while True:
     question = input("Ask a yes or no question please(If not type stop to leave): ")
     if question == "stop":
         print("Till we see each other again %s..." % name)
